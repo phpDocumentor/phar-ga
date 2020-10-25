@@ -1,0 +1,19 @@
+{
+  "name": "phpdocumentor/phar-ga",
+  "type": "project",
+  "description": "phar & release utils container",
+  "keywords": [
+    "phpDocumentor",
+    "phar",
+    "box",
+    "release"
+  ],
+  "license": "MIT",
+  "require": {
+    "php": "^7.2",
+    "humbug/box": "^3.8"
+  },
+  "config": {
+    "sort-packages": true
+  }
+}

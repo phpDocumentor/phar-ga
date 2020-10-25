@@ -1,0 +1,8 @@
+name: "phpdoc-box-action"
+description: "phar & release utils container"
+branding:
+  color: green
+  icon: crosshair
+runs:
+  using: docker
+  image: docker://phpdoc/phar-ga:latest
