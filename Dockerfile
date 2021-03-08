@@ -1,6 +1,6 @@
 FROM composer:2.0.9 AS composer
 
-FROM php:7.4-alpine
+FROM php:8.0.3-alpine
 
 COPY . /opt/phpdoc
 WORKDIR /opt/phpdoc
