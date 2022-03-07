@@ -1,4 +1,4 @@
-FROM composer:2.2.2 AS composer
+FROM composer:2.2.7 AS composer
 
 FROM php:7.4-alpine
 
