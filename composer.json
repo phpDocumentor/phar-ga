@@ -10,10 +10,13 @@
   ],
   "license": "MIT",
   "require": {
-    "php": "^7.2",
-    "humbug/box": "^3.8"
+    "php": "^8.1",
+    "humbug/box": "^4.3"
   },
   "config": {
-    "sort-packages": true
+    "sort-packages": true,
+    "allow-plugins": {
+      "ocramius/package-versions": true
+    }
   }
 }
